@@ -19,6 +19,8 @@
 		0E9EF6641C20089E002224F8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6631C20089E002224F8 /* GameViewController.swift */; };
 		0E9EF6661C200A1F002224F8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6651C200A1F002224F8 /* MenuViewController.swift */; };
 		0E9EF6681C200BB7002224F8 /* LoadGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6671C200BB7002224F8 /* LoadGameViewController.swift */; };
+		0EB2D8391C20A27D006AC9BE /* LevelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB2D8381C20A27D006AC9BE /* LevelCollectionViewController.swift */; };
+		0EB2D83B1C20A70C006AC9BE /* PathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB2D83A1C20A70C006AC9BE /* PathViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		0E9EF6631C20089E002224F8 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0E9EF6651C200A1F002224F8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		0E9EF6671C200BB7002224F8 /* LoadGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadGameViewController.swift; sourceTree = "<group>"; };
+		0EB2D8381C20A27D006AC9BE /* LevelCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewController.swift; sourceTree = "<group>"; };
+		0EB2D83A1C20A70C006AC9BE /* PathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				0E9EF6631C20089E002224F8 /* GameViewController.swift */,
 				0E9EF6651C200A1F002224F8 /* MenuViewController.swift */,
 				0E9EF6671C200BB7002224F8 /* LoadGameViewController.swift */,
+				0EB2D8381C20A27D006AC9BE /* LevelCollectionViewController.swift */,
+				0EB2D83A1C20A70C006AC9BE /* PathViewController.swift */,
 			);
 			path = "cyber-war";
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E9EF6641C20089E002224F8 /* GameViewController.swift in Sources */,
+				0EB2D8391C20A27D006AC9BE /* LevelCollectionViewController.swift in Sources */,
+				0EB2D83B1C20A70C006AC9BE /* PathViewController.swift in Sources */,
 				0E9EF6661C200A1F002224F8 /* MenuViewController.swift in Sources */,
 				0E9EF6601C20028E002224F8 /* GameTableViewController.swift in Sources */,
 				0E9EF6321C1FFBC6002224F8 /* ViewController.swift in Sources */,
@@ -502,6 +510,7 @@
 				0E9EF6561C1FFBC6002224F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E9EF6571C1FFBC6002224F8 /* Build configuration list for PBXNativeTarget "cyber-warTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +519,7 @@
 				0E9EF6591C1FFBC6002224F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E9EF65A1C1FFBC6002224F8 /* Build configuration list for PBXNativeTarget "cyber-warUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +528,7 @@
 				0E9EF65C1C1FFBC6002224F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

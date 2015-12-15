@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBOutlet weak var labelChoiceDescription: UILabel!
+    @IBOutlet weak var labelChoiceDescription: UITextView!
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -23,11 +23,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonChoiceBlue(sender: AnyObject) {
-        labelChoiceDescription.text = "Blue"
+        labelChoiceDescription.text = "Blue Team:\n\n" + "The good guys that want to save the world and protect their users."
     }
 
     @IBAction func buttonChoiceRed(sender: AnyObject) {
-        labelChoiceDescription.text = "Red"
+        labelChoiceDescription.text = "Red Team:\n\n" + "The bad guys. Hackers who have made it out of the Matrix."
     }
     @IBAction func buttonChoiceConfirm(sender: AnyObject) {
         
