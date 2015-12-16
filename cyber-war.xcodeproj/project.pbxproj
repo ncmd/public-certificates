@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E028EE91C20FF6B002ECE95 /* WorldStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E028EE81C20FF6B002ECE95 /* WorldStatusViewController.swift */; };
 		0E9EF6301C1FFBC6002224F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF62F1C1FFBC6002224F8 /* AppDelegate.swift */; };
 		0E9EF6321C1FFBC6002224F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6311C1FFBC6002224F8 /* ViewController.swift */; };
 		0E9EF6351C1FFBC6002224F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9EF6331C1FFBC6002224F8 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		0E9EF63A1C1FFBC6002224F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9EF6381C1FFBC6002224F8 /* LaunchScreen.storyboard */; };
 		0E9EF6451C1FFBC6002224F8 /* cyber_warTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6441C1FFBC6002224F8 /* cyber_warTests.swift */; };
 		0E9EF6501C1FFBC6002224F8 /* cyber_warUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF64F1C1FFBC6002224F8 /* cyber_warUITests.swift */; };
-		0E9EF6601C20028E002224F8 /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF65F1C20028E002224F8 /* GameTableViewController.swift */; };
 		0E9EF6621C200873002224F8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6611C200873002224F8 /* SettingsViewController.swift */; };
 		0E9EF6641C20089E002224F8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6631C20089E002224F8 /* GameViewController.swift */; };
 		0E9EF6661C200A1F002224F8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF6651C200A1F002224F8 /* MenuViewController.swift */; };
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E028EE81C20FF6B002ECE95 /* WorldStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldStatusViewController.swift; sourceTree = "<group>"; };
 		0E9EF62C1C1FFBC6002224F8 /* cyber-war.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cyber-war.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9EF62F1C1FFBC6002224F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E9EF6311C1FFBC6002224F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		0E9EF64B1C1FFBC6002224F8 /* cyber-warUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cyber-warUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9EF64F1C1FFBC6002224F8 /* cyber_warUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyber_warUITests.swift; sourceTree = "<group>"; };
 		0E9EF6511C1FFBC6002224F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E9EF65F1C20028E002224F8 /* GameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 		0E9EF6611C200873002224F8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0E9EF6631C20089E002224F8 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0E9EF6651C200A1F002224F8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -117,13 +117,13 @@
 				0E9EF6361C1FFBC6002224F8 /* Assets.xcassets */,
 				0E9EF6381C1FFBC6002224F8 /* LaunchScreen.storyboard */,
 				0E9EF63B1C1FFBC6002224F8 /* Info.plist */,
-				0E9EF65F1C20028E002224F8 /* GameTableViewController.swift */,
 				0E9EF6611C200873002224F8 /* SettingsViewController.swift */,
 				0E9EF6631C20089E002224F8 /* GameViewController.swift */,
 				0E9EF6651C200A1F002224F8 /* MenuViewController.swift */,
 				0E9EF6671C200BB7002224F8 /* LoadGameViewController.swift */,
 				0EB2D8381C20A27D006AC9BE /* LevelCollectionViewController.swift */,
 				0EB2D83A1C20A70C006AC9BE /* PathViewController.swift */,
+				0E028EE81C20FF6B002ECE95 /* WorldStatusViewController.swift */,
 			);
 			path = "cyber-war";
 			sourceTree = "<group>";
@@ -281,10 +281,10 @@
 				0EB2D8391C20A27D006AC9BE /* LevelCollectionViewController.swift in Sources */,
 				0EB2D83B1C20A70C006AC9BE /* PathViewController.swift in Sources */,
 				0E9EF6661C200A1F002224F8 /* MenuViewController.swift in Sources */,
-				0E9EF6601C20028E002224F8 /* GameTableViewController.swift in Sources */,
 				0E9EF6321C1FFBC6002224F8 /* ViewController.swift in Sources */,
 				0E9EF6301C1FFBC6002224F8 /* AppDelegate.swift in Sources */,
 				0E9EF6681C200BB7002224F8 /* LoadGameViewController.swift in Sources */,
+				0E028EE91C20FF6B002ECE95 /* WorldStatusViewController.swift in Sources */,
 				0E9EF6621C200873002224F8 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

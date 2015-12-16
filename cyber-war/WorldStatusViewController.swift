@@ -1,5 +1,5 @@
 //
-//  PathViewController.swift
+//  WorldStatusViewController.swift
 //  cyber-war
 //
 //  Created by o on 12/15/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PathViewController: UIViewController {
+class WorldStatusViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,21 +21,6 @@ class PathViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet weak var labelSkillPointsAvailable: UILabel!
-    
-    @IBOutlet weak var labelSkillPointsCurrent: UILabel!
-    
-    @IBOutlet weak var sliderSkillPointsUsed: UISlider!
-    
-    @IBAction func sliderSkillPointsUsed(sender: AnyObject) {
-        
-        let currentValue = Int(sliderSkillPointsUsed.value)
-        let availableValue = Int(sliderSkillPointsUsed.value)
-        
-        labelSkillPointsCurrent.text = "\(currentValue)"
-        labelSkillPointsAvailable.text = "\(100 - availableValue)"
-        
-    }
 
     /*
     // MARK: - Navigation
